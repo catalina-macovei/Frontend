@@ -1,3 +1,78 @@
-body{
-    background-color: blueviolet;
+html {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+#app {
+    background-color: white;
+    padding: 2rem;
+}
+.blog {
+    width: 100%;
+    height: 100%;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+.card {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    border-radius: 1rem;
+}
+.card h2 {
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin: 0;
+}
+.card p {
+    font-size: 0.9rem;
+}
+.card--footer {
+    font-size: 0.7rem;
+    color: rgb(154, 154, 154);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+.card--footer i {
+    width: 4px;
+    height: 4px;
+    background-color: rgb(154, 154, 154);
+    border-radius: 50%;
+}
+.blog--main {
+    display: flex;
+    height: 250px;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.blog--main__img {
+    flex-basis: 66.66%;
+    width: 100%;
+}
+.blog--main__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.blog--main__content {
+    flex-basis: 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.blogs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.blogs {
+    
 }
